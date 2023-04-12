@@ -1,0 +1,38 @@
+.friend_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.friend_item {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.status {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+
+.avatar {
+
+}
+
+.name {
+
+}
+  

@@ -1,0 +1,22 @@
+.transaction_history {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table_head {
+    background-color: #ccc;
+}
+
+.table_head_item {
+    padding: 5px;
+}
+
+.table_body_item {
+    border: 1px solid #ccc;
+    padding: 5px;
+}

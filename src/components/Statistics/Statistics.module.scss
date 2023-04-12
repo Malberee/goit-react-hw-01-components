@@ -1,0 +1,27 @@
+.statistics{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.stats_list{
+    display: flex;
+    justify-content: space-around;
+}
+.stats_item{
+    width: 100%;
+
+    &:not(:last-child) {
+        border-right: 1px solid #ccc;
+    }
+}
+.label{
+    display: block;
+    color: #8d8d8d;
+}
+.percentage{
+    font-weight: bold;
+}
