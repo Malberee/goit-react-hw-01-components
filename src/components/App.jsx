@@ -10,8 +10,6 @@ import user from '../data/user'
 import transactions from '../data/transactions'
 
 function App() {
-	const [count, setCount] = useState(0)
-
 	return (
 		<>
 			<Profile
