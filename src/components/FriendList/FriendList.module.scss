@@ -28,11 +28,13 @@
     
 }
 
-.avatar {
-
+.online {
+    composes: status;
+    background-color: #25b35c;
 }
 
-.name {
-
+.offline {
+    composes: status;
+    background-color: #d64646;
 }
   

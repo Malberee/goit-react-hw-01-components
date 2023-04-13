@@ -25,5 +25,5 @@ FriendList.propTypes = {
 			avatar: PropTypes.string.isRequired,
 			name: PropTypes.string.isRequired,
 		})
-	),
+	).isRequired
 }
